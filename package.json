@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/djxsrouk/goit-js-hw-08",
+  "homepage": "https://djxsrouk.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/goit-js-hw-08"
+    "url": "git+https://djxsrouk.github.io/goit-js-hw-08/"
   },
   "keywords": [],
   "author": "Andrei Paiu-Rotundu <djxsrouk@gmail.com>",
