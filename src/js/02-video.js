@@ -2,7 +2,7 @@ import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
 
 const vimeoPlayerElement = document.getElementById("vimeo-player");
-const player = new VimeoPlayer(vimeoPlayerElement);
+const player = new Player(vimeoPlayerElement);
 
 const updateAndSaveTime = throttle(async () => {
   const currentTime = await player.getCurrentTime();
